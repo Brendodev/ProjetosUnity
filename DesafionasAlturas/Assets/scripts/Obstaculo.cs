@@ -26,7 +26,7 @@ public class Obstaculo : MonoBehaviour
 
         if (this.pontuei && this.transform.position.x < this.posicaoDoAviao.x)
         {
-            
+            Debug.Log("pontuou");
             this.pontuei = true;
             this.pontuacao.AdicionarPontos();
             
